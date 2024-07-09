@@ -51,7 +51,7 @@
         </div>
     </nav>
 
-    <h1 class="my-4 text-center heading">Weather at <span id="cityName"></span></h1>
+    <h1 class="my-4 text-center heading"><span id="head">Weather at </span><span id="cityName"></span></h1>
     <div>
         <div class="container">
             <main>
@@ -68,8 +68,8 @@
                                 </h1>
                                 <ul class="list-unstyled mt-3 mb-4">
                                     <li>Teamperature is <span id="temp"></span><span>&#8451;</span></li>
-                                    <li>Min Temperature is <span id="min_temp"></span><span>&#8451;</span></li>
-                                    <li>Max Temperature is <span id="max_temp"></span><span>&#8451;</span></li>
+                                    <li>Atmospheric Pressure is <span id="pressure"></span><span> mb</span></li>
+                                    <li>Gust is <span id="gust"></span><span> kph</span></li>
 
                                 </ul>
                             </div>
@@ -106,8 +106,8 @@
                                 <ul class="list-unstyled mt-3 mb-4">
                                     <li>Wind Degree is <span id="wind_degrees"></span><span>&#176;</span>
                                     </li>
-                                    <li>Sunrise Time is <span id="sunrise"></span></li>
-                                    <li>Sunset Time is <span id="sunset"></span></li>
+                                    <li>Time Zone is <span id="timeZone"></span></li>
+                                    <li>Last updated on <span id="lastUpdate"></span></li>
                                 </ul>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
     <div class="bottom-container">
         <p>We recognize our responsibility to use data and technology for good. Take control of your data.</p>
         <p>This website is developed by Kriti Raj.</p>
-        <p>© Copyright Kriti Raj, 2022</p>
+        <p>© Copyright Kriti Raj, <span id="year">2022</span></p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
